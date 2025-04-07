@@ -5,11 +5,12 @@ html {
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensures the body and html take up the full height */
+    height: 100%;
 }
 
 body {
-    background-image: url('coffeebackground.jpg');
+    /* cursor: url('images/cursor.png'), auto; */
+    background-image: url('../images/coffeebackground.jpg');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
