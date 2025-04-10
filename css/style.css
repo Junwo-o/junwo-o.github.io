@@ -1,6 +1,20 @@
 html {
-    font-family: "Comic Sans";
+    font-family: "Comic Sans MS", "Courier New", sans-serif;
 }
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem; /* adjust this to control spacing */
+  }
+  
 
 html, body {
     /* margin: 0;
@@ -10,25 +24,18 @@ html, body {
 
 body {
     /* cursor: url('images/cursor.png'), auto; */
-    background-image: url('../images/coffeebackground.jpg');
+    /* background-image: url('../images/coffeebackground.jpg'); */
     background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;
-}
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    min-height: 2000px; /* Or 100vh, 150vh, etc. */
 }
-
-button:hover {
-    background-color: #45a049;
-}
-
   
-
- 
+.social-icons i {
+    color:red;
+    transition: color 0.3s ease;
+}
+  
+.social-icons a:hover i {
+    color: white;
+}
