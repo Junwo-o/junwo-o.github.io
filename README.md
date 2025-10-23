@@ -1,4 +1,6 @@
-# 🌐 [Personal Website](https://leejunwoo.com)
+# 🌐 Personal Website
+
+**🚀 Live Site:** [**leejunwoo.com**](https://leejunwoo.com)
 
 Welcome to the source code for my personal website! This site is a living digital space where I share who I am, what I do, and what I'm building.
 
