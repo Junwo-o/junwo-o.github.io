@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Junwoo Lee's personal website">
     <title>Junwoo Lee</title>
-    <link rel="icon" href="favicon-32x32.png" type="image/png">
-    <link rel="icon" href="favicon.ico"/>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+    <link rel="icon" href="images/favicon.ico"/>
     <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   </head>
 
   <body>
-    <script src="./js/experiments.js"></script>
     <header>
       <nav>
         <a href="index.html">Home</a>
@@ -50,8 +49,11 @@
     </main>
 
     <footer>
-      &copy; 2025 Junwoo Lee
+      &copy;&nbsp;<span id="year"></span>&nbsp;Junwoo Lee
     </footer>
-    
+
+<!-- script link just before <\body> tag in order to have html render before the script runs or errors -->
+    <script src="./js/experiments.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
