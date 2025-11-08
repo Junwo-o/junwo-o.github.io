@@ -3,3 +3,13 @@
 .DS_Store
 
 .idea/
+
+# Backup files (e.g., file.txt~)
+*~
+
+# Vim swap files (e.g., .file.txt.swp)
+.*.swp
+.*.swo
+
+# Vim undo files (e.g., .file.txt.un~)
+.*.un~
